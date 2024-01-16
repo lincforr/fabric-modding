@@ -1,0 +1,12 @@
+{
+  "item.fabricmod.raw_tanzanite": "Raw Tanzanite",
+  "item.fabricmod.tanzanite": "Tanzanite",
+
+  "block.fabricmod.tanzanite_block": "Block of Pure Tanzanite",
+  "block.fabricmod.tanzanite_ore": "Tanzanite Ore",
+  "block.fabricmod.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+  "block.fabricmod.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
+  "block.fabricmod.endstoone_tanzanite_ore": "Endstone Tanzanite Ore",
+
+  "itemGroup.fabricmod.tanzanite": "Tanzanite Tab"
+}

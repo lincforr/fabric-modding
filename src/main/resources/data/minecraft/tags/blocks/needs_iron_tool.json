@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fabricmod:tanzanite_block",
+    "fabricmod:tanzanite_ore",
+    "fabricmod:netherrack_tanzanite_ore",
+    "fabricmod:endstone_tanzanite_ore"
+  ]
+}
