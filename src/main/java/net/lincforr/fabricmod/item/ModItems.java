@@ -2,6 +2,7 @@ package net.lincforr.fabricmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.lincforr.fabricmod.FabricMod;
+import net.lincforr.fabricmod.item.custom.EightBallItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -13,6 +14,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
+
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.RANDOM).maxCount(1)));
 
 
 

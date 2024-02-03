@@ -3,6 +3,7 @@ package net.lincforr.fabricmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lincforr.fabricmod.FabricMod;
+import net.lincforr.fabricmod.block.custom.JumpyBlock;
 import net.lincforr.fabricmod.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -34,6 +35,8 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.TANZANITE);
 
+    public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
+            new JumpyBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
@@ -45,7 +48,7 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings().group(tab)));
     }
 
-    public static void registerModBlock() {
+    public static void registerModBlocks() {
         FabricMod.LOGGER.debug("Registering ModBlocks for " + FabricMod.MOD_ID);
     }
 }
