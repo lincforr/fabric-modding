@@ -2,15 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " # ",
+<<<<<<< HEAD
     "#@#",
+=======
+    "#I#",
+>>>>>>> origin/main
     " # "
   ],
   "key": {
     "#": {
       "item": "fabricmod:tanzanite"
     },
+<<<<<<< HEAD
     "@": {
       "item": "miencraft:redstone"
+=======
+    "I": {
+      "item": "minecraft:redstone"
+>>>>>>> origin/main
     }
   },
   "result": {
