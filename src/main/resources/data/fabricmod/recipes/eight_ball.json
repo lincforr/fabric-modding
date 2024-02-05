@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    " # ",
+    "#@#",
+    " # "
   ],
   "key": {
     "#": {
       "item": "fabricmod:tanzanite"
+    },
+    "@": {
+      "item": "miencraft:redstone"
     }
   },
   "result": {
-    "item": "fabricmod:tanzanite_block"
+    "item": "fabricmod:eight_ball"
   }
 }
